@@ -1,3 +1,4 @@
+#you must have requests installed
 import requests
 a=0
 c=0
@@ -19,4 +20,3 @@ while True:
 		with open(name + ".txt", "w") as f:
 			f.write(b)
 		c=0
-

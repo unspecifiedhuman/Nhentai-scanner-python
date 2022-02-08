@@ -1,4 +1,3 @@
-GNU nano 6.0        nhentai-gen-tag.py
 import requests, re
 a=''
 name=input('name to save file as: ')

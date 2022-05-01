@@ -1,5 +1,8 @@
 Info~
 
+CURRENTLY BROKEN DUE TO CLOUDFLARE
+looking for bypass at the moment.
+
 gen.py will find random codes amd save them to a file.
 
 nhentai-gen-tag.py will get x number of codes with y tag and save them to a file.

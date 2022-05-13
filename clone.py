@@ -1,3 +1,7 @@
+#this clones x number of galleries and saves them to a directory with a html file to desplay them.
+#made in linux in the directory "~.bot" where there is clone.py and files directory.
+#when i out this on github, i accidentally removed the origional gen.py so i'll make a better one.
+
 import requests, re, wget, os, time
 no=int(input('number of galleries: '))
 b=''

@@ -15,7 +15,7 @@ for i in range (0,no):
 	b =  "\n" + h.url
 	print(b)
 	for g in re.finditer('"name" content=', h.text):
-		y=g.end()+80
+		y=g.end()+120
 		j=h.text[g.start()+16:y]
 		while j[-20:] != '" /><meta itemprop="':
 			j=j[:-1]

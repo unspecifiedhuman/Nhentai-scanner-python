@@ -6,6 +6,8 @@ import requests, re, wget, os, time
 no=int(input('number of galleries: '))
 b=''
 u=0
+#python http server on port 8080
+#os.popen("python -m http.server --directory ~/bot/files 8080")
 for i in range (0,no):
 	h=requests.get('https://nhentai.net/random')
 	while h.url == 'https://nhentai.net/random/':
